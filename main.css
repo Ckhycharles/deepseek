@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+
+body {
+    background:   #40ffe6;;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Logo left, API link right */
+    align-items: center;
+    padding: 15px 20px;
+    background: white;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow */
+    width: 100%;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px; 
+    margin: auto;
+}
+
+
+.logo img {
+    height: 30px;
+}
+
+
+.logo a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #8fb4dc;
+    font-size: 16px;
+}
+
+
+.deepseek_announcement {
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+    /* background: #f8f9fa; */
+    padding: 10px 20px;
+    margin: 10px auto;
+    max-width: 80%;
+    
+}
+
+
+
+.hero {
+    margin-top: 50px;
+}
+ /* for the first one  */
+.brand-name {
+    font-size: 50px;
+    font-weight: bold;
+    color: #2961db;
+}
+
+.tagline {
+    font-size: 22px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* CTA Section  styles */
+.thissection {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    
+}
+
+.thistitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #2961db;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 10px;
